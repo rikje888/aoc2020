@@ -22,6 +22,9 @@ fn main() {
     //Assignment 1
     'outer1: for input_a in arr.iter() {
         for input_b in arr.iter() {
+            if input_a + input_b > 2020 {
+                break;
+            }
             if input_a + input_b == 2020 {
                 println!("Assignment 1: {}",
                     (input_a * input_b)
