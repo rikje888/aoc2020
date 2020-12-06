@@ -19,6 +19,8 @@ pub fn aoc04(){
         }
     }
 
+
+    
     let mut i = 0;
     let mut valid_passport = 0;
     let mut passport: HashMap<String, String> = HashMap::new();
