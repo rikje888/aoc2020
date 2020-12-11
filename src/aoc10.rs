@@ -2,12 +2,6 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
-use std::collections::HashMap;
-use std::collections::HashSet;
-
-use std::time::Instant;
-
-
 
 pub fn aoc10(){
     let mut arr: Vec<i64> = Vec::new();
